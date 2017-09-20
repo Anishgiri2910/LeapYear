@@ -1,0 +1,10 @@
+def is_leap_year(year):
+    if(year%100 == 0):
+       		if(year%400 == 0):
+       			pass ("Leap Year")
+       		elif(year%100 == 0):
+       			pass("Not a Leap Year")
+    elif(year%4==0):
+    	pass("Leap Year")
+    else:
+    	pass("Not a Leap Year")
